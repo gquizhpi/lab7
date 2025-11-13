@@ -1,17 +1,20 @@
 .center {
     text-align: center;
 }
+
 #container {
     width: 400px;
     margin: 50px auto 0;
 }
+
 #entryinput {
-    width: 100%
+    width: 100%;
 }
-#entrybutton{
+
+#entrybutton {
     width: 200px;
     text-align: center;
-    color: #fff
+    color: #fff;
     background-color: #c00;
     padding: 2em 0;
     margin: 20px auto;
