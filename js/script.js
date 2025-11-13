@@ -1,23 +1,19 @@
-.center {
-    text-align: center;
+function init() {
+  const button = document.getElementById("entrybutton");
+  const input = document.getElementById("entryinput");
+  const output = document.getElementById("textoutput");
+
+  button.addEventListener("click", function () {
+    const textentry = input.value.trim();
+
+    if (textentry) {
+      alert("Giovanni: " + textentry);
+      output.textContent = textentry;
+    } else {
+      alert("Please enter a message first!");
+      output.textContent = "No message entered.";
+    }
+  });
 }
 
-#container {
-    width: 400px;
-    margin: 50px auto 0;
-}
-
-#entryinput {
-    width: 100%;
-}
-
-#entrybutton {
-    width: 200px;
-    text-align: center;
-    color: #fff;
-    background-color: #c00;
-    padding: 2em 0;
-    margin: 20px auto;
-    font-size: 24px;
-    font-weight: bold;
-}
+window.addEventListener("load", init);
