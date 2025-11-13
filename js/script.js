@@ -1,11 +1,20 @@
-function init(){
-//add your javascrip between these two lines of code
- 
-
-
-
-
-
-
-
-window.addEventListener('load', init);
+.center {
+    text-align: center;
+}
+#container {
+    width: 400px;
+    margin: 50px auto 0;
+}
+#entryinput {
+    width: 100%
+}
+#entrybutton{
+    width: 200px;
+    text-align: center;
+    color: #fff
+    background-color: #c00;
+    padding: 2em 0;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
